@@ -1,0 +1,27 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "create-block/uncommon-ourteam-teammember",
+	"version": "0.1.0",
+	"title": "Uncommon Our Team Teammember",
+	"category": "widgets",
+	"icon": "smiley",
+	"description": "Example block scaffolded with Create Block tool.",
+	"supports": {
+		"html": false
+	},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "default": "Benjamina"
+    },
+    "title": {
+      "type": "string",
+      "default": "Founder"
+    }
+  },
+	"textdomain": "uncommon-ourteam-teammember",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}
